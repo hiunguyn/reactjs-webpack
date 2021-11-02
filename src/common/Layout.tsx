@@ -16,7 +16,7 @@ const Layout: React.FC = ({ children }) => {
   if (data) {
     return (
       <div className={styles.layout}>
-          {children}
+        {children}
       </div>
     )
   }
